@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "email": "tomasz.pielczyk@gmail.com",
+            "name": "Tomasz Pielczyk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xtompie\\Monitor\\": "src/"
+        }
+    },
+    "description": "Monitor long running script",
+    "keywords": [
+        "monitor"
+    ],
+    "license": "MIT",
+    "name": "xtompie/monitor",
+    "type": "library"
+}
