@@ -8,9 +8,11 @@ Monitor long running script
 
 ## Installation
 
-### Using skeleton
+Using [composer](https://getcomposer.org/)
 
-[xtompie/monitor](https://github.com/xtompie/monitor)
+```shell
+composer require xtompie/validation
+```
 
 ## Doc
 
