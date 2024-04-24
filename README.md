@@ -39,7 +39,7 @@ It will generator output in stdout:
 #import | 2023-12-23 12:06:06 | 2023-12-23 12:06:12 | 0:00:00:06 | 2 mb | done: 5 | skip: 3
 ```
 
-A new line with the monitor status is generated not Czech than `frequency` when the monitor status changes.
+A new line with the monitor status is generated not more frequently than `frequency`.
 
 For more check source code: [Monitor](https://github.com/xtompie/monitor/blob/master/src/Monitor.php)
 
