@@ -11,7 +11,7 @@ Monitor long running script
 Using [composer](https://getcomposer.org/)
 
 ```shell
-composer require xtompie/validation
+composer require xtompie/monitor
 ```
 
 ## Doc
