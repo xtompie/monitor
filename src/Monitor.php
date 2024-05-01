@@ -77,6 +77,11 @@ class Monitor
         ;
     }
 
+    public function __toString()
+    {
+        return $this->render();
+    }
+
     protected function state(): string
     {
         return implode(' | ', array_map(fn ($k, $v) => "$k: $v", array_keys($this->data), $this->data));
