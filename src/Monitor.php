@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Xtompie\Monitor;
 
-class Monitor
+use JsonSerializable;
+
+class Monitor implements JsonSerializable
 {
     public function __construct(
         protected string $name = 'monitor',
@@ -78,6 +80,11 @@ class Monitor
     }
 
     public function __toString()
+    {
+        return $this->render();
+    }
+
+    public function jsonSerialize(): string
     {
         return $this->render();
     }
